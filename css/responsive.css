@@ -1,0 +1,137 @@
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Laptop dan tablet besar */
+@media (max-width: 992px) {
+    .navbar-container {
+        gap: 15px;
+    }
+
+    .nav-menu {
+        gap: 18px;
+    }
+
+    .hero {
+        gap: 30px;
+    }
+
+    .hero-image {
+        flex-basis: 280px;
+    }
+
+    .hero-image img {
+        width: 260px;
+        height: 340px;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Tablet dan HP */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-wrap: wrap;
+        padding: 15px 5%;
+    }
+
+    .menu-toggle {
+        display: block;
+        order: 2;
+        margin-left: auto;
+    }
+
+    .navbar-actions {
+        order: 3;
+    }
+
+    .nav-menu {
+        display: none;
+        order: 4;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 55px;
+        gap: 35px;
+    }
+
+    .hero-image {
+        flex: none;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 320px;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .section-heading h2 {
+        font-size: 26px;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    #contact-form {
+        padding: 25px 20px;
+    }
+}
+
+/* HP */
+@media (max-width: 576px) {
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content h2 {
+        font-size: 18px;
+    }
+
+    .hero-image img {
+        width: 230px;
+        height: 290px;
+    }
+
+    .btn-cv {
+        padding: 9px 13px;
+        font-size: 12px;
+    }
+
+    .portfolio,
+    .contact {
+        padding: 65px 5%;
+    }
+}

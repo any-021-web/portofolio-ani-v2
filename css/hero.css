@@ -1,0 +1,115 @@
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    min-height: 620px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Konten tulisan */
+.hero-content {
+    flex: 1;
+}
+
+.hero-greeting {
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.hero-content h1 {
+    color: var(--text-color);
+    font-size: clamp(38px, 5vw, 58px);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.hero-content h2 {
+    color: var(--primary);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    max-width: 540px;
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Tombol hero */
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #ffffff;
+    border: 2px solid var(--primary);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* Foto profil */
+.hero-image {
+    flex: 0 0 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 340px;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(23, 105, 170, 0.18);
+    transition: 0.4s ease;
+}
+
+.hero-image img:hover {
+    transform: translateY(-6px);
+}
