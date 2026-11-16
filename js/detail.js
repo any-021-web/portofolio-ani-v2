@@ -75,7 +75,7 @@ const projectDetails = {
 
     "home-server-nextcloud": {
         title: "Home Server Kami",
-        category: "System Administration",
+        category: "System Operation",
         image: "assets/img/project4.png",
         description: `
             <h2>Tentang Proyek</h2>
