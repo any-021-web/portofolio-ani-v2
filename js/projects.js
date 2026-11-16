@@ -24,7 +24,7 @@ const projects = [
     {
         id: "home-server-nextcloud",
         title: "Home Server Kami",
-        category: "System Administration",
+        category: "System Operation",
         image: "assets/img/project4.png",
     description: "Proyek pengembangan home server berbasis Ubuntu Server 22.04 secara berkelompok dengan memanfaatkan Docker, Nginx, Nextcloud, Tailscale, dan Samba."
 }
