@@ -108,9 +108,9 @@ portofolio-ani-v2/
 
 1. Clone repository dari GitHub.
 2. Buka folder proyek menggunakan Visual Studio Code.
-3. Jalankan file `index.html` melalui browser atau menggunakan ekstensi Live Server.
-4. Website dapat diakses dan diuji secara lokal.
-
+3. Pastikan seluruh struktur folder dan file proyek tersedia.
+4. Jalankan file `index.html` melalui browser atau menggunakan ekstensi Live Server.
+5. Halaman utama website akan ditampilkan dan pengunjung dapat mengakses halaman detail proyek melalui navigasi yang tersedia.
 **Mengakses website secara online:**
 
 Website telah dipublikasikan menggunakan GitHub Pages dan dapat diakses melalui:
